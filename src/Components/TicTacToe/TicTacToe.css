@@ -3,19 +3,28 @@
     text-align: center;
     overflow: hidden;
 }
+.titleDiv{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    line-height: 0px;
+}
 .title{
-    margin-top: 40px;
-    color: white;
+    /* margin-top: 40px; */
+    color:white;
     font-size: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.titleDiv{
-    display: flex;
-    justify-content: center;
-    align-self: center;
+
+.titleDiv p{
+    color: lightblue; 
+    font-variant: small-caps;
+    font-size: 17px;
 }
 .react{
     color: #26ffcb;
@@ -75,7 +84,7 @@
     color: #26ffcb;
    width: 200px;
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 768px) {
     .title{
         margin-top: 25px;
         color: white;
@@ -83,6 +92,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .titleDiv p{
+        font-size: 11px;
     }
     .react{
         color: #26ffcb;

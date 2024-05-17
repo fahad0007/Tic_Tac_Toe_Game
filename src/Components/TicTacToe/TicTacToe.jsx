@@ -131,8 +131,11 @@ const handleReset =()=>{
     <div className='container'>
       <div className="titleDiv">
 
+     {/* <h1 className="title" ref={titleRef}>Tic Tac Toe
+      Game In <span className='react'> React </span></h1> */}
      <h1 className="title" ref={titleRef}>Tic Tac Toe
-      Game In <span className='react'> React </span></h1>
+      Game In React</h1>
+      <p>Designed And Developed By Fahad</p>
       </div>
       
       <div className="row-container">
